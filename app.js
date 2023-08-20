@@ -39,7 +39,7 @@ const userSchema = new mongoose.Schema({
   email: String,
   password: String,
   googleId: String, // Adding Google ID field
-  secret: [String],
+  secret: String,
 });
 
 //setting up passport-local-mongoose
